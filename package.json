@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "start": "node api.js",
-    "dev": "node --watch api.js"
+    "dev": "node --watch api.js",
+    "test": "NODE_ENV=test node --test test/",
+    "test:watch": "NODE_ENV=test node --watch --test test/"
   },
   "keywords": [],
   "author": "erickwendel",
