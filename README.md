@@ -35,3 +35,10 @@ Resposta da rota privada: {"result":"Hey welcome!"}
 ## Valeu
 - Considere me seguir nas redes sociais e deixar um star nesse projeto!
 - Valeu!
+
+** Windows: para setar a variável de ambiente e executar a aplicação Node com um único comando, instalar
+o pacote npm win-node-env como dependência global
+```
+npm install -g win-node-env
+```
+Assim podemos fazer a execução como no Linux
