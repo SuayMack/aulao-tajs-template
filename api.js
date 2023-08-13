@@ -3,8 +3,8 @@ import { createServer } from 'node:http'
 import JWT from 'jsonwebtoken'
 
 const DEFAULT_USER = {
-  user: 'erickwendel',
-  password: '123'
+  user: 'priscilacs',
+  password: '369'
 }
 const JWT_KEY = 'abc123'
 async function loginRoute(request, response) {
@@ -41,10 +41,8 @@ async function handler(request, response) {
 }
 
 const app = createServer(handler)
-if(process.env.NODE_ENV !== 'test') {
-  app.listen(3000, () => console.log('listening at 3000'))
-}
 
-  export {
-    app
-  }
+export {
+  app,
+  handler
+}
